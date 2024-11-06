@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-09-01" view-index="0" gantt-divider-location="366" resource-divider-location="300" version="3.3.3311" locale="en_IN">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="209" order="0"/>
+        <field id="tpd4" name="Begin date" width="78" order="1"/>
+        <field id="tpd5" name="End date" width="78" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="length"/>
+        <option id="taskLabelLeft" value="taskDates"/>
+        <option id="taskLabelRight" value="advancement"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#990066 #33ff99 #3366ff #ff3333 #00ff33 #ff3399 #ccff00 #00ffff #ff6600]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="39a370c8c88549689f6a03a9371c6d81" name="Meetings" color="#00ffff" meeting="false" start="2024-09-09" duration="7" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="1c6c8cc3cc314646b7611f28d3cfe6e7" name="Stake Holder Discussion" color="#ccff00" meeting="false" start="2024-09-18" duration="5" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="3db83a8e61cc4320997c97e6b90b24f9" name="Documentation" color="#ff3399" meeting="false" start="2024-09-25" duration="5" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="0953d0bc199c4b5fa598400ae215fd14" name="Design Database" color="#00ff33" meeting="false" start="2024-10-02" duration="15" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="4b59978eca1748f495e472e2ef3575cf" name="Software Designing" color="#ff3333" meeting="false" start="2024-10-23" duration="7" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="5249128205ee4a169950f2b1aa39798c" name="Interface Design" color="#3366ff" meeting="false" start="2024-11-01" duration="10" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="8990f79fcf3c4cd1ac0239b44f573f06" name="Construction" color="#33ff99" meeting="false" start="2024-11-15" duration="30" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="4aaa2efafbf040a6bb096f35e8e7164b" name="Integration" meeting="false" start="2024-12-27" duration="8" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="8c8f656208464af49e99c8c61101da98" name="Testing" color="#ff6600" meeting="false" start="2025-01-08" duration="7" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="a01cbe3841cf47938f2fc7c8dc8a2d1a" name="Deployment" color="#990066" meeting="false" start="2025-01-17" duration="3" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Anuj Gomare" function="Default:1" contacts="wenwwhjw@gmail.com" phone="51536534653">
+            <rate name="standard" value="25"/>
+        </resource>
+        <resource id="1" name="Om Shinde" function="Default:0" contacts="wdjwbcwibci@gmail.com" phone="15164846646">
+            <rate name="standard" value="15"/>
+        </resource>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
